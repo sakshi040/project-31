@@ -1,5 +1,5 @@
 class Partical{
-    construstor(x,y,r){
+    constructor(x,y,r){
 var options={
     restitution:0.4
 }

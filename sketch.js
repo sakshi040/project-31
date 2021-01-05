@@ -9,7 +9,7 @@ var divisions=[]
 var divisionHeight=300
 
 function setup() {
-  createCanvas(480,650);
+  createCanvas(500,650);
   engine = Engine.create();
     world = engine.world;
 
@@ -46,8 +46,8 @@ for (var i=0;i<plinkos.length;i++){
   plinkos[i].display();
 }
 
-if (frameCount%60===0){
-  particles.push(new Partical(random(width/2-10,width/2+10),10,10))
+if (frameCount%30===0){
+  particles.push(new Partical(random(width/2-30,width/2+30),10,10))
 }
 }
 
